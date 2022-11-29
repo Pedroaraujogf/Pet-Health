@@ -8,7 +8,7 @@
 }
 
 .primeiro-bloco {
-  height: 500px;
+  height: 600px;
   width: 100vw;
 
   background: #ade2ff;
@@ -62,21 +62,6 @@
   font-size: 56px;
   color: #758ecd;
 }
-@media(max-width : 1000px) {
-.cachorro-imagem {display: none}
-}
-.menu {
-gap: 32px
-}
-
-.texto-principal{
-  font-size: 30px;
-  width: 90vw; 
-}
-
-.texto-clicavel{
-  font-size: 40px;
-}
 
 .segundo-bloco{
   height: 600px;
@@ -87,6 +72,7 @@ gap: 32px
   justify-content: center;
 
 }
+
 .plano-container{
   width: 350px;
   
@@ -113,5 +99,30 @@ gap: 32px
   line-height: 36px;
   width: 224px;
   color: #c4c4c4;
+
+}
+@media(max-width : 1000px) {
+.cachorro-imagem {display: none}
+
+.menu {
+gap: 32px
+}
+
+.texto-principal{
+  font-size: 30px;
+  width: 90vw; 
+}
+
+.texto-clicavel{
+  font-size: 40px;
+}
+
+.segundo-bloco {
+  height: auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
 }
